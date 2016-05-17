@@ -1,4 +1,4 @@
-/*Basic form*/
+/*====================== BASIC FORM ================*/
 .main_container {
     margin: 0px auto;
     padding-top: 20px;
@@ -50,5 +50,41 @@
     font-size: 14px;
     border-radius: 0px;
     background: #2698E4;
+    border: 0px;
+}
+/*============ HORIZONTAL FORM ============*/
+
+.hor_form {
+    width: 60%;
+    border: 1px solid #30C971;
+    margin: 0px auto;
+    max-width: 830px;
+}
+
+.hor_form_head {
+    background-color: #30C971;
+    width: 100%;
+    color: #FFF;
+    padding: 10px 15px;
+}
+.hor_form_head  h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+
+}
+.hor_form_head  i {
+    margin-right: 20px;
+}
+.btn-hor-user {
+    font-size: 14px;
+    border-radius: 0px;
+    background: #30C971;
+    border: 0px;
+}
+.btn-hor-user:hover {
+    font-size: 14px;
+    border-radius: 0px;
+    background: #249353;
     border: 0px;
 }
