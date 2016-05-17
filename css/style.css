@@ -88,3 +88,37 @@
     background: #249353;
     border: 0px;
 }
+
+/*============ INPUT GROUPS ============*/
+
+.input_form {
+    width: 60%;
+    border: 1px solid #E14737;
+    margin: 0px auto;
+    max-width: 830px;
+}
+
+.input_form_head {
+    background-color: #E14737;
+    width: 100%;
+    color: #FFF;
+    padding: 10px 15px;
+}
+.input_form_head  h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+
+}
+.input_form_head  i {
+    margin-right: 20px;
+}
+.input-group {
+    margin-bottom: 10px;
+}
+.input-group button{
+    border-radius: 0px;
+}
+.input-group span{
+    border-radius: 0px;
+}
