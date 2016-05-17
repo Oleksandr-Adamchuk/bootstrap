@@ -2,16 +2,15 @@
 .main_container {
     margin: 0px auto;
     padding-top: 20px;
-    
 }
 .basic_form {
-    width: 75%;
+    width: 60%;
     border: 1px solid #2698E4;
-    margin: 0px auto
+    margin: 0px auto;
+    max-width: 830px;
 }
 .basic_form_head {
-    background-color: #2698E4;;
-    height: 40px;
+    background-color: #2698E4;
     width: 100%;
     color: #FFF;
     padding: 10px 15px;
@@ -33,6 +32,7 @@
 
 .basic_form_body {
     padding: 15px;
+    margin-bottom: 25px;
 }
 .form-control {
    border-radius: 0px;
@@ -42,4 +42,13 @@
 }
 .checkbox label {
     font-weight: 500;
+}
+.checkbox  {
+    max-height: 25px;
+}
+.btn-user {
+    font-size: 14px;
+    border-radius: 0px;
+    background: #2698E4;
+    border: 0px;
 }
