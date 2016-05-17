@@ -1,0 +1,46 @@
+/*Basic form*/
+.main_container {
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 20px;
+    
+}
+.basic_form {
+    width: 75%;
+    border: 1px solid #2698E4;
+    margin: 0px auto
+}
+.basic_form_head {
+    background-color: #2698E4;;
+    height: 40px;
+    width: 100%;
+    color: #FFF;
+    padding: 10px 15px;
+}
+.basic_form_head  h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+
+}
+.basic_form_head  i {
+    margin-right: 20px;
+}
+.basic_form label {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.basic_form_body {
+    padding: 15px;
+}
+.form-control {
+   border-radius: 0px;
+}
+.form-control {
+   border-radius: 0px;
+}
+.checkbox label {
+    font-weight: 500;
+}
