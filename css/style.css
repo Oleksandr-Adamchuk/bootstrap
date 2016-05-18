@@ -166,14 +166,29 @@
     color: #6C6969;
     padding: 10px 25px;
     border: 1px solid #B1B1B1;
-    border-bottom: none;
+    
     
 }
 .reg_form_body {
      padding: 20px; 
      border-top: 1px solid #B1B1B1;
      border: 1px solid #B1B1B1;
+     border-top: none;
 }
 .reg_form_body input {
      margin-bottom: 15px;   
 }
+
+.btn-hor-user2 {
+    font-size: 14px;
+    border-radius: 0px;
+    background: #787878;
+    border: 0px;
+}
+.btn-hor-user2:hover {
+    font-size: 14px;
+    border-radius: 0px;
+    background: grey;
+    border: 0px;
+}
+
