@@ -148,3 +148,32 @@
 .grid_system_body input {
      margin-bottom: 15px;   
 }
+/*************** TWO FORMS  *********************/
+.reg_forms {
+    width: 60%;
+    margin: 0px auto;
+    max-width: 830px;
+    
+    
+}
+.reg_form_head h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.reg_form_head {
+    width: 100%;
+    color: #6C6969;
+    padding: 10px 25px;
+    border: 1px solid #B1B1B1;
+    border-bottom: none;
+    
+}
+.reg_form_body {
+     padding: 20px; 
+     border-top: 1px solid #B1B1B1;
+     border: 1px solid #B1B1B1;
+}
+.reg_form_body input {
+     margin-bottom: 15px;   
+}
