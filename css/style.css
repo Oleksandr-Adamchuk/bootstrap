@@ -1,0 +1,194 @@
+/*====================== BASIC FORM ================*/
+.main_container {
+    margin: 0px auto;
+    padding-top: 20px;
+}
+.basic_form {
+    width: 60%;
+    border: 1px solid #2698E4;
+    margin: 0px auto;
+    max-width: 830px;
+}
+.basic_form_head {
+    background-color: #2698E4;
+    width: 100%;
+    color: #FFF;
+    padding: 10px 15px;
+}
+.basic_form_head  h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+
+}
+.basic_form_head  i {
+    margin-right: 20px;
+}
+.basic_form label {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.basic_form_body {
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.form-control {
+   border-radius: 0px;
+}
+.form-control {
+   border-radius: 0px;
+}
+.checkbox label {
+    font-weight: 500;
+}
+.checkbox  {
+    max-height: 25px;
+}
+.btn-user {
+    font-size: 14px;
+    border-radius: 0px;
+    background: #2698E4;
+    border: 0px;
+}
+/*============ HORIZONTAL FORM ============*/
+
+.hor_form {
+    width: 60%;
+    border: 1px solid #30C971;
+    margin: 0px auto;
+    max-width: 830px;
+}
+
+.hor_form_head {
+    background-color: #30C971;
+    width: 100%;
+    color: #FFF;
+    padding: 10px 15px;
+}
+.hor_form_head  h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+
+}
+.hor_form_head  i {
+    margin-right: 20px;
+}
+.btn-hor-user {
+    font-size: 14px;
+    border-radius: 0px;
+    background: #30C971;
+    border: 0px;
+}
+.btn-hor-user:hover {
+    font-size: 14px;
+    border-radius: 0px;
+    background: #249353;
+    border: 0px;
+}
+
+/*============ INPUT GROUPS ============*/
+
+.input_form {
+    width: 60%;
+    border: 1px solid #E14737;
+    margin: 0px auto;
+    max-width: 830px;
+}
+
+.input_form_head {
+    background-color: #E14737;
+    width: 100%;
+    color: #FFF;
+    padding: 10px 15px;
+}
+.input_form_head  h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+
+}
+.input_form_head  i {
+    margin-right: 20px;
+}
+.input-group {
+    margin-bottom: 10px;
+}
+.input-group button{
+    border-radius: 0px;
+}
+.input-group span{
+    border-radius: 0px;
+}
+
+/*************** GRID SYSTEM  *********************/
+.grid_system {
+    width: 60%;
+    border: 1px solid #B1B1B1;
+    margin: 0px auto;
+    max-width: 830px;
+}
+.grid_system_head {
+    width: 100%;
+    color: #6C6969;
+    padding: 10px 25px;
+    
+}
+.grid_system_head  h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.grid_system_body {
+     padding: 15px; 
+     border-top: 1px solid #B1B1B1;
+}
+.grid_system_body input {
+     margin-bottom: 15px;   
+}
+/*************** TWO FORMS  *********************/
+.reg_forms {
+    width: 60%;
+    margin: 0px auto;
+    max-width: 830px;
+    
+    
+}
+.reg_form_head h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.reg_form_head {
+    width: 100%;
+    color: #6C6969;
+    padding: 10px 25px;
+    border: 1px solid #B1B1B1;
+    
+    
+}
+.reg_form_body {
+     padding: 20px; 
+     border-top: 1px solid #B1B1B1;
+     border: 1px solid #B1B1B1;
+     border-top: none;
+}
+.reg_form_body input {
+     margin-bottom: 15px;   
+}
+
+.btn-hor-user2 {
+    font-size: 14px;
+    border-radius: 0px;
+    background: #787878;
+    border: 0px;
+}
+.btn-hor-user2:hover {
+    font-size: 14px;
+    border-radius: 0px;
+    background: grey;
+    border: 0px;
+}
+

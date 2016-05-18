@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Завдання по bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/576668288b.js"></script>
+
+</head>
+<body>
+  <div class="main_container">
+      <!--************** BASIC FORM************************-->  
+      <div class="basic_form">
+          <div class="basic_form_head">
+              <h3><i class="fa fa-tasks" aria-hidden="true"></i>Basic Form</h3>
+          </div>
+          <div class="basic_form_body">
+              <form role="form">
+                  <div class="form-group">
+                      <label for="basic_email">Email address</label>
+                      <input type="email" name="email" id="basic_email" class="form-control" placeholder="Enter email"/>
+                  </div>
+                  <div class="form-group">
+                      <label for="basic_pass">Password</label>
+                      <input type="password" name="pass" id="basic_pass" class="form-control" placeholder="Password"/>
+                  </div>
+                  <div class="checkbox">
+                      <label>
+                        <input type="checkbox"/>Check me out
+                        </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-sm btn-user">Submit</button>
+              </form>
+          </div>
+      </div>
+      <br/>
+      <br/>
+      <!--************** HORIZONTAL FORM*******************-->  
+      <div class="hor_form">
+        <div class="hor_form_head">
+          <h3><i class="fa fa-tasks" aria-hidden="true"></i>Horizontal Form</h3>
+        </div>
+        <div class="basic_form_body">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Remember me
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-primary btn-hor-user">Sing in</button>
+                </div>
+              </div>
+            </form>
+          </div>
+      </div>
+      <br/>
+      <br/>
+      <!--************** INPUT GROUPS**********************--> 
+      <div class="input_form">
+        <div class="input_form_head">
+          <h3><i class="fa fa-tasks" aria-hidden="true"></i>Horizontal Form</h3>
+        </div>
+        <div class="basic_form_body">
+            <p>Extend form controls by adding text or buttons before, after, or on both sides of any text-based input. 
+            Use <code>.input-group</code> with an <code>.input-group-addon</code> 
+            to prepend or append elements to a <code>.form-control</code>.</p><br/>
+            <div class="row">
+                <div class="col-md-6">
+                      <h4>Basic Example</h4>
+                      <div class="input-group">
+                          <span class="input-group-addon">@</span>
+                          <input type="text" class="form-control" placeholder="Username">
+                      </div>
+                      <div class="input-group">
+                          <input type="text" class="form-control">
+                          <span class="input-group-addon">.00</span>
+                      </div>
+                      <div class="input-group">
+                          <span class="input-group-addon">$</span>
+                          <input type="text" class="form-control">
+                          <span class="input-group-addon">.00</span>
+                      </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Checkboxes and Radio Addons</h4>
+                      <div class="input-group">
+                          <span class="input-group-addon"><input type="checkbox"></span>
+                          <input type="text" class="form-control" placeholder="">
+                      </div>
+                      <div class="input-group">
+                          <span class="input-group-addon"><input type="radio"></span>
+                          <input type="text" class="form-control">
+                      </div>
+                </div>
+            </div>
+            <h4>Button Addons and Buttons with Dropdowns</h4>
+            <p>Buttons in input groups are a bit different and require one extra level of nesting. 
+            Instead of <code>.input-group-addon</code>, you'll need to use 
+            <code>.input-group-btn</code> to wrap the buttons. This is required due to 
+            default browser styles that cannot be overridden.</p><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                            <button class="btn btn-danger" type="button">Go!</button>
+                        </span>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-danger" type="button">Go!</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Action 
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                        <input type="text" class="form-control">
+                </div>
+                    <div class="input-group">
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-btn">
+                                        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                                            Action 
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu pull-right">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+            </div>
+        </div>
+        
+      </div>
+      </div>
+      <br/>
+      <br/>
+      <!--************** GRID SYSTEM  *********************--> 
+      <div class="grid_system">
+          <div class="grid_system_head">
+              <h3>Responsive grid system</h3>
+          </div>
+          <div class="grid_system_body">
+              <div class="row">
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" placeholder="2/12">
+                    </div> 
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" placeholder="2/12">
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" placeholder="2/12">
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" placeholder="2/12">
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" placeholder="2/12">
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" placeholder="2/12">
+                    </div>
+                </div>
+              <div class="row">
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" placeholder="3/12">
+                    </div> 
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" placeholder="3/12">
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" placeholder="3/12">
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" placeholder="3/12">
+                    </div>
+                </div>
+              <div class="row">
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" placeholder="4/12">
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" placeholder="4/12">
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" placeholder="4/12">
+                    </div>
+                </div>
+              <div class="row">
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" placeholder="6/12">
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" placeholder="6/12">
+                    </div>
+                </div>
+              <div class="row">
+                    <div class="col-sm-12">
+                        <input type="text" class="form-control" placeholder="12/12">
+                    </div>
+                </div>
+          </div>
+          <div class="grid_system_body">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" placeholder="2/12">
+                    </div> 
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" placeholder="2/12">
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" placeholder="2/12">
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" placeholder="3/12">
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" placeholder="3/12">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" placeholder="2/12">
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" placeholder="2/12">
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" placeholder="4/12">
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" placeholder="4/12">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" placeholder="2/12">
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" placeholder="4/12">
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" placeholder="6/12">
+                    </div>
+                </div>
+          </div>
+      </div>
+      <br/>
+      <br/>
+      <!--************** TWO FORMS  *********************--> 
+      <div class="reg_forms">
+          <div class="row">
+     <!--************** reg FORM *******************-->
+              <div class="col-md-6">
+                  <form role="form">
+                      
+                  
+                  <div class="reg_form_head">
+                      <h3>Registration form</h3>
+                  </div>
+                  <div class="reg_form_body">
+                      <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Username">
+                          <span class="input-group-addon">
+                          <span class="glyphicon glyphicon-user"></span></span>
+                      </div>
+                      <div class="input-group">
+                          <input type="email" class="form-control" placeholder="Email address">
+                          <span class="input-group-addon">
+                          <span class="glyphicon glyphicon-envelope"></span></span>
+                      </div>
+                      <div class="input-group">
+                          <input type="password" class="form-control" placeholder="Password">
+                          <span class="input-group-addon">
+                          <span class="glyphicon glyphicon-lock"></span></span>
+                      </div>
+                      <div class="input-group">
+                          <input type="password" class="form-control" placeholder="Confirm password">
+                          <span class="input-group-addon">
+                          <span class="glyphicon glyphicon-lock"></span></span>
+                      </div>
+                  </div>
+                  <div class="reg_form_body">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <input type="text" class="form-control" placeholder="First name">
+                          </div>
+                          <div class="col-md-6">
+                              <input type="text" class="form-control" placeholder="Last name">
+                          </div>
+                      </div>
+                      <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Gender">
+                          <span class="input-group-addon">
+                          <i class="fa fa-sort"></i></span>
+                      </div>
+                         <div class="checkbox">
+                              <label><input type="checkbox" value="">I want to recive news and special offers</label>
+                        </div>
+                        <div class="checkbox">
+                              <label><input type="checkbox" value="">I agry with the terms and conditions</label>
+                        </div>
+                        
+                      
+                  </div>
+                          <div class="reg_form_body">
+                            <button type="submit" class="btn btn-primary btn-hor-user">Submit</button>
+                          </div>
+                    
+                  </form>
+              </div>
+              
+              <div class="col-md-6">
+                  <form class="form-horizontal" role="form">
+                      <div class="reg_form_head">
+                      <h3>Login form</h3>
+                  </div>
+                  <div class="reg_form_body">
+                      <div class="form-group">
+                            <label class="control-label col-sm-3" for="email">Email:</label>
+                            <div class="col-sm-9">
+                             <input type="email" class="form-control" id="email" placeholder="Enter email">
+                            </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-sm-3" for="pwd">Password:</label>
+                        <div class="col-sm-9">
+                          <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-offset-3 col-sm-9">
+                          <div class="checkbox">
+                            <label><input type="checkbox">Keep me logged in</label>
+                          </div>
+                        </div>
+                      </div>
+                    
+                  </div>
+                  <div class="reg_form_body">
+                         <button type="submit" class="btn btn-primary btn-hor-user">Login</button>
+                         <button type="submit" class="btn btn-primary btn-hor-user2">Register</button>
+                     </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+      <br/>
+      <br/>
+  
+  
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
